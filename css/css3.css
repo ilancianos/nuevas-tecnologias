@@ -1,0 +1,120 @@
+/*Tercer diseño: Nuevas tecnologías*/
+
+/*Importamos las fuentes desde google Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Lato');
+
+body{
+  background: #5A74EF;
+}
+/*Mofificamos el menu*/
+
+#top{
+  display:block;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  border: 5px green;
+}
+
+#top a{
+  color: #F1F9FE;
+  text-decoration:none;
+  font-size: 25px;
+  padding: 10px 20px;
+  font-family: 'Exo+2', sans-serif;
+}
+
+a:hover{
+  background: #586FD9;
+}
+
+a:active{
+  background: #ccc;
+}
+
+.section{
+  background: #EAF8FD;
+}
+
+.section_title{
+  background: #ccc;
+  color: #2B50FA;
+  padding: 5px;
+  width: 99.33%;
+  font-weight: bold;
+  font-size: 22px;
+  border-bottom: #ff8000 10px;
+  text-align: center;
+  font-family: 'Exo+2', sans-serif;
+}
+
+.need .separador{
+  visibility: hidden;
+}
+
+.to_top{
+  visibility: hidden;
+}
+
+div p, .need{
+  font-family: 'Lato', sans-serif;
+}
+/*Modificamos la seccion tecnología*/
+
+#Necesidades .need{
+  width: 470px;
+  display: block;
+  float: left;
+  text-align:center;
+  padding: 10px;
+}
+
+#Necesidades div{
+  border: 1.5px solid #49B1D3;
+}
+
+#Necesidades .to_top{
+  border: none;
+}
+
+#Necesidades .need h2{
+  color: #8055D9;
+}
+
+#Necesidades img{
+  width: 200px;
+  height: 200px;
+}
+/*Modificamos la seccion tecnologia*/
+
+#Tecnologias .subsection_title, p{
+  clear: both;
+  padding: 10px;
+}
+
+#Tecnologias .subsection_title{
+
+  text-align: center;
+  color: #586FD9;
+}
+
+#Tecnologias .subsection{
+  width: 50%;
+  float: left;
+}
+/*Modificamos seccion Impacto*/
+
+#Impacto .section_text{
+  padding: 10px;
+}
+/*Modificamos la seccion referencias*/
+
+#Referencias{
+  text-align: center;
+}
+
+#Referencias ol{
+  font-size: 12px;
+}

@@ -1,0 +1,112 @@
+/*Primer diseño: Ciencia Ficción*/
+
+/*Importamos las fuentes de google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Roboto');
+
+body{
+  background:#FAFDFF;
+}
+/*Modificamos el menu*/
+
+#top{
+  background: #4A8DB1;
+  display:block;
+  text-align: center;
+  padding: 10px;
+  width: 98%;
+  margin: 5px;
+  font-weight: bold;
+}
+
+#top a{
+  color: #F1F9FE;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 10px 20px;
+  margin: 30px;
+  font-family: 'Orbitron', sans-serif;
+
+}
+a:hover{
+  background: #75AECE;
+}
+/*Modificamos las secciones*/
+
+.section{
+  margin: 5px;
+  background: #C2E1F5;
+}
+
+.section_title{
+  background: #68A5CC;
+  color: #FFDC7B;
+  padding: 5px;
+  width: 350px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+}
+
+div p, .need{
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.need_title main{
+  color: #ff8000;
+}
+
+.need .separador{
+  visibility: hidden;
+}
+
+.to_top{
+  visibility: hidden;
+}
+/*Modificamos las necesidades*/
+
+#Necesidades .need{
+  width: 470px;
+  display: block;
+  float: left;
+  text-align:left;
+  padding: 10px;
+}
+
+#Necesidades div{
+  border: 1.5px solid #4A8DB1;
+}
+
+#Necesidades .to_top{
+  border: none;
+}
+
+#Necesidades img{
+  width: 200px;
+  height: 200px;
+}
+
+.need h2{
+  color: #F0805A;
+}
+/*Modificamos las tecnologias invlucradas*/
+
+#Tecnologias .subsection_title, p{
+  clear: both;
+  padding-left: 10px;
+}
+
+#Tecnologias .subsection_title{
+  color: #B69C27;
+}
+/*Modificamos los impactos*/
+
+#Impacto .section_text{
+  padding-left: 10px;
+}
+/*Modificamos las referencias*/
+
+#Referencias ol{
+  clear: both;
+  font-size: 12px;
+}

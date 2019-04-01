@@ -1,0 +1,91 @@
+/*Segundo diseño: Entendidos del cine*/
+
+/*Importamos las fuentes de google Font*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+/*Comenzamos diseñando el menu*/
+
+body{
+  background: #FFFBF2;
+}
+
+#top{
+  display:block;
+  padding: 10px;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+}
+
+#top a{
+  color: #FF840B;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+/*Modificamos las seccione*/
+
+.section{
+  padding: 5px;
+}
+
+.section_title{
+  padding: 5px;
+  background: #FFC892;
+  font-weight: bold;
+  width: 100%;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.need .separador{
+  visibility: hidden;
+}
+
+.to_top{
+  visibility: hidden;
+}
+
+div p, .need{
+  font-family: 'Open Sans', sans-serif;
+}
+/*Modificamos las necesidades*/
+
+#Necesidades .need{
+  width: 100%;
+  display: block;
+  text-align:center;
+  padding: 10px;
+}
+
+#Necesidades img{
+  width: 200px;
+  height: 200px;
+}
+
+.need h2{
+  background: #FFEDDA;
+}
+/*Modificamos tecnologias involucradas*/
+
+#Tecnologias .subsection_title, p{
+  clear: both;
+  padding-left: 10px;
+}
+
+#Tecnologias .subsection_title{
+  color: #B16921;
+}
+/*Moficicamos impacto*/
+
+#Impacto .section_text{
+padding-left: 10px;
+}
+
+/*Modificamos la parte de referencia*/
+#Referencias ol{
+  font-size: 12px;
+}
